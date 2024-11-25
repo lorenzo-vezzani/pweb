@@ -1,0 +1,40 @@
+.album-table {
+    width: 90%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    text-align: left;
+    font-family: Arial, sans-serif;
+    color: #333;
+    background-color: #f9f9f9;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden; /* Per il bordo arrotondato */
+}
+
+.album-table th,
+.album-table td {
+    padding: 15px 20px;
+    word-wrap: break-word;
+}
+
+.album-table th {
+    background-color:  rgb(59, 147, 35);
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.album-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.album-table tr:hover {
+    background-color: #d7ffd9;
+}
+
+.album-table td img {
+    max-width: 50px;
+    height: auto;
+    border-radius: 5px;
+    object-fit: cover;
+}

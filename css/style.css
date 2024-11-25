@@ -1,0 +1,68 @@
+body{
+    background-color: #313432;
+    height: auto;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: black;
+    padding: 30px;
+}
+
+.musica-title{
+    color: white;
+}
+
+.musica-a {
+    display: flex;
+    justify-content: center;
+    color: black;
+    text-decoration: none;
+    align-items: center;
+    background-color: rgb(83, 207, 49);
+    font-size: 17px;
+    width: 100%;
+    height: 50px;
+    border: 0;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}    
+.musica-a:hover {
+    background-color: rgb(63, 157, 37);
+    text-decoration: underline;
+    transition: all 0.3s ease;
+}
+
+.musica-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.musica-input,
+.musica-btn {
+    width: 100%;
+    height: 50px;
+    padding: 10px;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.musica-input {
+    background-color: white;
+    border: 1px solid #ccc;
+}
+
+.musica-btn {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+.musica-btn:hover {
+    background-color: #45a049;
+}
